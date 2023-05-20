@@ -13,7 +13,7 @@
 
 [![NPM](https://nodei.co/npm/ph-node-api.png)](https://nodei.co/npm/ph-node-api/)
 
-NodeJS PlanetHoster API integration.
+NodeJS NGcodeX_PlanetHoster API integration.
 
 Please refer to the documentation of the [NGcodeX-PlanetHoster API](https://apidoc.planethoster.com/) for all endpoints details.
 
