@@ -5,3 +5,28 @@ export interface RequestParams {
   path: string;
   params?: {};
 }
+//
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    "schedule:daily",
+    ":disableRateLimiting",
+    "group:linters",
+    "group:testNonMajor",
+    ":automergeLinters",
+    ":automergeTesters",
+    ":automergeTypes"
+  ],
+  "timezone": "America/Montreal",
+  "labels": [
+    "dependency"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "schedule": [
+      "before 5am on monday"
+    ]
+  }
+}
