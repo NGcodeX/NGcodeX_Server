@@ -22,6 +22,8 @@ Please refer to the documentation of the [NGcodeX-PlanetHoster API](https://apid
 npm install ph-node-api
 ```
 
+<img src="https://github.com/NGcodeX/NGcodeX_Server/blob/main/.github/workflows/private/NGcodeXpreviewDash.PNG?raw=true">
+
 ## Usage
 ```javascript
 const PhNodeApi = require('ph-node-api');
